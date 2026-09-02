@@ -349,39 +349,4 @@ Prompt refinement and repeated generation are important for obtaining an output 
 
 ---
 
-# Viva Questions
 
-### 1. What is text-to-image generation?
-
-Text-to-image generation is an AI technique that creates images based on natural language descriptions called prompts.
-
-### 2. What is a prompt?
-
-A prompt is a textual instruction or description given to an AI model to generate a desired output.
-
-### 3. Why is prompt refinement important?
-
-Prompt refinement adds more specific information and helps the AI model generate an image that is closer to the desired result.
-
-### 4. Name three AI image generation tools.
-
-- DALL·E
-- Stable Diffusion
-- Midjourney
-
-### 5. What factors should be considered while reproducing an image?
-
-Important factors include:
-
-- Subject
-- Color
-- Lighting
-- Background
-- Composition
-- Perspective
-- Texture
-- Artistic style
-
-### 6. What is the purpose of comparing the generated image with the original?
-
-Comparison helps identify differences and allows the prompt to be improved for better image reproduction.
