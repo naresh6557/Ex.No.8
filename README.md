@@ -177,7 +177,7 @@ The reference image represents a peaceful natural landscape.
 
 ## Final Generated Image
 
-![Scenario 1 Final Generated Image](scenario1-final.png)
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/8861a60f-db09-4346-81bd-beeed5acc4b7" />
 
 ---
 
@@ -244,7 +244,7 @@ The reference image represents a warm and comfortable café interior.
 
 ## Final Generated Image
 
-![Scenario 2 Final Generated Image](scenario2-final.png)
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/68ace7f4-db83-4544-a10f-999f9bef1001" />
 
 ---
 
