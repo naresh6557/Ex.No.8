@@ -176,7 +176,7 @@ The first reference image is a peaceful mountain landscape containing mountains,
 
 ### Original Image:
 
-![Original Mountain Landscape](images/original_landscape.png)
+<img width="1146" height="707" alt="image" src="https://github.com/user-attachments/assets/e87703e3-7cff-49cb-b1d1-6de04f4a47bf" />
 
 ---
 
@@ -227,7 +227,7 @@ The final detailed prompt used for image generation is:
 
 The final image generated using the refined prompt is shown below.
 
-![Generated Mountain Landscape](images/generated_landscape.png)
+<img width="1143" height="706" alt="image" src="https://github.com/user-attachments/assets/edcec6ca-b30b-41d9-877c-e9210e1e3dba" />
 
 ---
 
@@ -274,7 +274,7 @@ The second reference image represents a modern metropolitan city with skyscraper
 
 ### Original Image:
 
-![Original Modern City](images/original_city.png)
+<img width="1155" height="712" alt="image" src="https://github.com/user-attachments/assets/605a7d84-0f44-4671-a8e6-4c4d58b6816a" />
 
 ---
 
@@ -325,7 +325,7 @@ The final detailed prompt used for image generation is:
 
 The final image generated using the refined prompt is shown below.
 
-![Generated Modern City](images/generated_city.png)
+<img width="1150" height="705" alt="image" src="https://github.com/user-attachments/assets/a74b2528-dac0-49a4-a2d4-749a6ae0e411" />
 
 ---
 
