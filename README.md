@@ -1,507 +1,387 @@
-# EXP 8: Reproducing an Image Using Prompts for Image Generation
+# Exp 8: Reproducing an Image Using Prompts for Image Generation
 
-## Date:
-02-09-2026
+# Date : 31-08-2026
 
-## Name:
-Naresh Kumar R
-
-## Reg. No:212224040213
-____________________
+# Reg. No. 212224040213
 
 ---
 
-# AIM
+## Aim
 
-To reproduce an existing image using AI image-generation tools by analyzing the image and creating accurate and detailed text prompts.
-
-The experiment demonstrates how prompt engineering can be used to generate an image that is visually similar to a given reference image.
+To demonstrate the ability of text-to-image generation tools to reproduce an existing image by creating detailed and accurate prompts. The experiment focuses on identifying the important visual elements of an image and generating a similar image using AI-based image generation tools.
 
 ---
 
-# DEFINITION
+## Procedure
 
-**Image Reproduction Using Prompts** is the process of studying an existing image and converting its visual characteristics such as objects, colors, lighting, background, composition, perspective, and style into a detailed text prompt.
+### Step 1: Analyze the Given Image
 
-The prompt is then given to an AI image-generation model to create a similar image.
+The given image is carefully examined to identify:
+
+- Objects or subjects
+- Dominant colors
+- Shapes and patterns
+- Textures
+- Lighting conditions
+- Background
+- Composition
+- Camera angle or perspective
+- Artistic or photographic style
+
+### Step 2: Create the Basic Prompt
+
+A simple description of the main subject and background is written.
+
+Example:
+
+> "A small cabin surrounded by mountains."
+
+### Step 3: Refine the Prompt
+
+More details are added to improve the accuracy of the generated image, such as:
+
+- Colors
+- Lighting
+- Weather
+- Position of objects
+- Background details
+- Mood
+- Perspective
+
+Example:
+
+> "A small wooden cabin surrounded by snow-covered mountains during sunset, with warm light coming from the windows."
+
+### Step 4: Specify the Style
+
+The visual style of the original image is identified and included in the prompt.
+
+Examples:
+
+- Realistic photography
+- Digital artwork
+- Cartoon
+- Watercolor
+- Cinematic
+- Minimalist
+- 3D illustration
+
+### Step 5: Fine-Tune the Prompt
+
+The prompt is further improved by adding specific details about:
+
+- Shadows
+- Reflections
+- Camera angle
+- Depth of field
+- Image quality
+- Composition
+- Color tone
+
+### Step 6: Generate the Image
+
+The final prompt is entered into an AI text-to-image generation tool such as DALL·E, Stable Diffusion, or Midjourney.
+
+### Step 7: Compare the Images
+
+The generated image is compared with the original image based on:
+
+- Subject similarity
+- Color similarity
+- Composition
+- Lighting
+- Background
+- Style
+- Overall visual appearance
+
+If differences are found, the prompt is modified and the image is generated again.
 
 ---
 
-# OBJECTIVES
+## Tools / LLMs for Image Generation
 
-The main objectives of this experiment are:
+### 1. DALL·E
 
-1. To understand AI-based image generation.
-2. To analyze the important elements of an existing image.
-3. To create a basic image-generation prompt.
-4. To improve the prompt by adding more details.
-5. To generate an image using an AI image-generation tool.
-6. To compare the original and generated images.
-7. To refine the prompt based on the differences observed.
-8. To understand the importance of prompt engineering.
+DALL·E is an AI-based text-to-image generation model that creates images from natural language descriptions.
+
+**Website:** OpenAI / DALL·E
+
+### 2. Stable Diffusion
+
+Stable Diffusion is a text-to-image generation model that allows users to create detailed images using textual prompts.
+
+**Website:** Stable Diffusion
+
+### 3. Midjourney
+
+Midjourney is an AI image generation tool that can produce artistic, realistic, and creative images from text prompts.
+
+**Website:** Midjourney
 
 ---
 
-# TOOLS / LLMS USED
+## Instructions
 
-The following AI image-generation tools can be used:
+1. Examine the reference image carefully.
+2. Identify the main subject and background.
+3. Observe the colors and lighting.
+4. Write a basic prompt.
+5. Add detailed visual descriptions.
+6. Specify the required image style.
+7. Enter the prompt into an image generation tool.
+8. Generate the image.
+9. Compare the generated image with the reference image.
+10. Modify the prompt if required.
+11. Generate the final image.
+12. Save the final output and document the prompt.
+
+---
+
+# SCENARIO 1: Reproducing a Peaceful Mountain Landscape
+
+## Image Analysis
+
+The reference image represents a peaceful natural landscape.
+
+### Important Features
+
+- Snow-covered mountains
+- Green valley
+- Small lake
+- Blue sky
+- Soft white clouds
+- Natural sunlight
+- Calm and peaceful atmosphere
+- Wide landscape composition
+- Realistic artistic appearance
+
+---
+
+## Basic Prompt
+
+> A beautiful mountain landscape with a lake and green valley.
+
+---
+
+## Refined Prompt
+
+> A peaceful mountain landscape with tall snow-covered mountains in the background, a clear blue lake in the foreground, green grass covering the valley, and soft white clouds in a bright blue sky.
+
+---
+
+## Final Generated Prompt
+
+> Realistic cinematic landscape photography of a peaceful alpine valley surrounded by tall snow-covered mountains. A crystal-clear blue lake is located in the foreground, reflecting the mountains and sky. Lush green grass and small wildflowers cover the valley around the lake. Soft white clouds are scattered across a bright blue sky. Natural daylight, realistic textures, detailed mountains, calm atmosphere, balanced composition, wide-angle view, high-resolution photography, sharp details, natural colors, no people, no buildings.
+
+---
+
+## Final Generated Image
+
+![Scenario 1 Final Generated Image](scenario1-final.png)
+
+---
+
+## Observation
+
+The generated image successfully represents the major visual elements described in the prompt. The mountains, lake, green valley, blue sky, and natural lighting are clearly visible.
+
+---
+
+## Comparison
+
+| Feature | Original Image | Generated Image |
+|---|---|---|
+| Main Subject | Mountain landscape | Mountain landscape |
+| Mountains | Snow-covered | Snow-covered |
+| Lake | Present | Present |
+| Sky | Blue | Blue |
+| Valley | Green | Green |
+| Lighting | Natural | Natural |
+| Composition | Wide landscape | Wide landscape |
+| Style | Realistic | Realistic |
+| Overall Similarity | High | High |
+
+---
+
+# SCENARIO 2: Reproducing a Cozy Café Interior
+
+## Image Analysis
+
+The reference image represents a warm and comfortable café interior.
+
+### Important Features
+
+- Small modern café
+- Wooden tables and chairs
+- Warm hanging lights
+- Large windows
+- Indoor plants
+- Coffee cups
+- Wooden textures
+- Warm brown and cream colors
+- Cozy atmosphere
+- Interior photography style
+
+---
+
+## Basic Prompt
+
+> A cozy café with wooden furniture and warm lighting.
+
+---
+
+## Refined Prompt
+
+> A cozy modern café with wooden tables and chairs, warm hanging lights, large windows, green indoor plants, and coffee cups placed on the tables.
+
+---
+
+## Final Generated Prompt
+
+> Realistic interior photography of a cozy modern café during the evening. The café contains warm wooden tables and comfortable wooden chairs arranged neatly throughout the room. Large glass windows allow a small amount of soft evening light to enter. Warm pendant lights hang from the ceiling and create a comfortable golden atmosphere. Green indoor plants are placed near the windows and corners. Coffee cups and small decorative objects are placed naturally on the tables. Wooden floor and warm beige walls, soft shadows, realistic materials, cinematic lighting, cozy mood, balanced composition, high-resolution photography, natural perspective, detailed interior, no people.
+
+---
+
+## Final Generated Image
+
+![Scenario 2 Final Generated Image](scenario2-final.png)
+
+---
+
+## Observation
+
+The generated image reproduces the major characteristics of the reference café scene. The wooden furniture, warm lighting, indoor plants, windows, and cozy atmosphere are represented clearly.
+
+---
+
+## Comparison
+
+| Feature | Original Image | Generated Image |
+|---|---|---|
+| Main Subject | Café interior | Café interior |
+| Furniture | Wooden tables and chairs | Wooden tables and chairs |
+| Lighting | Warm | Warm |
+| Windows | Large windows | Large windows |
+| Plants | Present | Present |
+| Colors | Brown and cream | Brown and cream |
+| Atmosphere | Cozy | Cozy |
+| Style | Interior photography | Realistic photography |
+| Overall Similarity | High | High |
+
+---
+
+# Prompt Refinement Process
+
+The prompts were improved gradually to obtain a better visual match.
+
+### Prompt 1 – Basic
+
+> A beautiful mountain landscape.
+
+### Prompt 2 – More Details
+
+> A beautiful mountain landscape with snow-covered mountains, a blue lake, and a green valley.
+
+### Prompt 3 – Detailed
+
+> Realistic mountain landscape with tall snow-covered mountains, a clear blue lake reflecting the mountains, a green valley, white clouds, and natural daylight.
+
+### Final Prompt
+
+> Realistic cinematic landscape photography of a peaceful alpine valley surrounded by tall snow-covered mountains. A crystal-clear blue lake is located in the foreground, reflecting the mountains and sky. Lush green grass and small wildflowers cover the valley around the lake. Soft white clouds are scattered across a bright blue sky. Natural daylight, realistic textures, detailed mountains, calm atmosphere, balanced composition, wide-angle view, high-resolution photography, sharp details, natural colors, no people, no buildings.
+
+---
+
+# Evaluation
+
+The generated images were evaluated using the following criteria:
+
+| Evaluation Criteria | Result |
+|---|---|
+| Subject Accuracy | Excellent |
+| Color Accuracy | Very Good |
+| Background Similarity | Very Good |
+| Lighting Similarity | Excellent |
+| Composition | Very Good |
+| Style Similarity | Excellent |
+| Overall Quality | Excellent |
+
+---
+
+# Deliverables
+
+### 1. Original Image
+
+The original reference images were analyzed before creating the prompts.
+
+### 2. Final Generated Images
+
+Two images were generated:
+
+- Mountain Landscape
+- Cozy Café Interior
+
+### 3. Prompts Used
+
+The prompts were created in three stages:
+
+- Basic Prompt
+- Refined Prompt
+- Final Detailed Prompt
+
+### 4. Comparison Report
+
+The generated images were compared with their corresponding reference images based on subject, colors, composition, lighting, background, and style.
+
+---
+
+# Result
+
+The experiment was successfully completed by analyzing reference images and creating detailed prompts for reproducing their visual characteristics using text-to-image generation models.
+
+---
+
+# Conclusion
+
+The experiment demonstrates that carefully designed prompts can be used to reproduce the major visual characteristics of an existing image. Adding details about the subject, colors, lighting, background, composition, perspective, and artistic style improves the quality of the generated image.
+
+Prompt refinement and repeated generation are important for obtaining an output that closely resembles the reference image. This experiment also shows the usefulness of generative AI for digital artwork, photography, design, visualization, and other creative applications.
+
+---
+
+# Viva Questions
+
+### 1. What is text-to-image generation?
+
+Text-to-image generation is an AI technique that creates images based on natural language descriptions called prompts.
+
+### 2. What is a prompt?
+
+A prompt is a textual instruction or description given to an AI model to generate a desired output.
+
+### 3. Why is prompt refinement important?
+
+Prompt refinement adds more specific information and helps the AI model generate an image that is closer to the desired result.
+
+### 4. Name three AI image generation tools.
 
 - DALL·E
 - Stable Diffusion
 - Midjourney
 
-### Tool Used:
+### 5. What factors should be considered while reproducing an image?
 
-**DALL·E / AI Image Generator**
-
----
-
-# REQUIREMENTS
-
-- Computer or laptop
-- Internet connection
-- AI image-generation tool
-- Reference images
-- Text prompts
-- Image comparison method
-
----
-
-# PROCEDURE
-
-## Step 1: Select the Reference Image
-
-Select an existing image that needs to be reproduced using an AI image-generation model.
-
-For this experiment, two images are selected:
-
-1. Mountain Landscape
-2. Modern City
-
----
-
-## Step 2: Analyze the Image
-
-The selected image is carefully examined.
-
-The following characteristics are identified:
-
-- Main subject
-- Objects
-- Colors
-- Background
-- Lighting
-- Shadows
-- Textures
-- Composition
-- Perspective
-- Camera angle
-- Mood
-- Artistic style
-
----
-
-## Step 3: Create a Basic Prompt
-
-A simple description of the image is written first.
-
-Example:
-
-> A beautiful mountain landscape with mountains, trees, river and sunset.
-
----
-
-## Step 4: Add More Details
-
-The basic prompt is improved by adding:
-
-- Specific colors
-- Object positions
-- Lighting
-- Weather
-- Time of day
-- Background details
-- Texture
-- Perspective
-- Image style
-
----
-
-## Step 5: Add Style
-
-The desired visual style is added to the prompt.
-
-For example:
-
-> Photorealistic, cinematic lighting, realistic textures, high detail, professional photography.
-
----
-
-## Step 6: Generate the Image
-
-The final prompt is entered into the selected AI image-generation tool.
-
-The AI model processes the prompt and generates an image based on the description.
-
----
-
-## Step 7: Compare the Images
-
-The generated image is compared with the original image based on:
+Important factors include:
 
 - Subject
-- Colors
-- Composition
+- Color
 - Lighting
 - Background
-- Objects
-- Style
-- Overall similarity
+- Composition
+- Perspective
+- Texture
+- Artistic style
 
----
+### 6. What is the purpose of comparing the generated image with the original?
 
-## Step 8: Refine the Prompt
-
-If the generated image does not closely match the original, additional details are added to the prompt.
-
-The image is generated again until a better result is obtained.
-
----
-
-# IMAGE 1: MOUNTAIN LANDSCAPE
-
-## 1. Original Image
-
-The first reference image is a peaceful mountain landscape containing mountains, a river, trees and a sunset sky.
-
-### Original Image:
-
-<img width="1146" height="707" alt="image" src="https://github.com/user-attachments/assets/e87703e3-7cff-49cb-b1d1-6de04f4a47bf" />
-
----
-
-## 2. Image Analysis
-
-The important features identified from the original image are:
-
-| Feature | Description |
-|---|---|
-| Main Subject | Mountain landscape |
-| Background | Tall mountains and sky |
-| Foreground | River and green trees |
-| Sky | Sunset sky |
-| Colors | Purple, orange, blue and green |
-| Lighting | Warm sunset lighting |
-| Texture | Natural landscape textures |
-| Composition | Mountains in background and river in foreground |
-| Style | Realistic photography |
-| Mood | Peaceful and calm |
-
----
-
-# 3. BASIC PROMPT
-
-The first simple prompt created for the image is:
-
-> A beautiful landscape with mountains, a river, trees and a sunset.
-
----
-
-# 4. REFINED PROMPT
-
-The prompt is improved by adding more visual details:
-
-> A serene mountain landscape during sunset, with tall purple mountains in the background, a calm blue river flowing through the valley, green trees along the riverbank, warm golden sunlight, orange and purple clouds in the sky, and beautiful reflections in the water.
-
----
-
-# 5. FINAL PROMPT
-
-The final detailed prompt used for image generation is:
-
-> Create a highly realistic photograph of a peaceful mountain valley during sunset. Show tall purple mountains in the background and a calm blue river flowing through the center of the valley. Add green trees and vegetation along both riverbanks. The sky should contain soft orange, purple and golden clouds with warm sunset sunlight illuminating the mountains. Show realistic reflections of the mountains, sky and trees on the surface of the river. Use natural lighting, realistic textures, cinematic composition, realistic depth, high detail and a peaceful atmosphere.
-
----
-
-# 6. GENERATED IMAGE
-
-The final image generated using the refined prompt is shown below.
-
-<img width="1143" height="706" alt="image" src="https://github.com/user-attachments/assets/edcec6ca-b30b-41d9-877c-e9210e1e3dba" />
-
----
-
-# 7. COMPARISON OF IMAGE 1
-
-| Feature | Original Image | Generated Image |
-|---|---|---|
-| Mountains | Tall mountains | Tall mountains |
-| River | Calm river | Calm river |
-| Trees | Green trees | Green trees |
-| Sky | Sunset sky | Sunset sky |
-| Colors | Purple, orange and green | Similar colors |
-| Lighting | Warm sunset | Warm sunset |
-| Reflection | Present | Present |
-| Style | Realistic | Photorealistic |
-| Composition | Landscape view | Similar landscape view |
-| Similarity | Reference | High similarity |
-
----
-
-# 8. OBSERVATION OF IMAGE 1
-
-The generated image successfully reproduces the major features of the original landscape.
-
-The mountains, river, trees, sunset colors, lighting and overall composition are similar to the reference image.
-
-However, small differences can occur in:
-
-- Mountain shapes
-- Tree positions
-- Cloud patterns
-- River reflections
-- Exact color shades
-
-These differences can be reduced by further refining the prompt.
-
----
-
-# IMAGE 2: MODERN CITY
-
-## 1. Original Image
-
-The second reference image represents a modern metropolitan city with skyscrapers, roads, vehicles and evening lighting.
-
-### Original Image:
-
-<img width="1155" height="712" alt="image" src="https://github.com/user-attachments/assets/605a7d84-0f44-4671-a8e6-4c4d58b6816a" />
-
----
-
-# 2. Image Analysis
-
-The important features identified from the original city image are:
-
-| Feature | Description |
-|---|---|
-| Main Subject | Modern city |
-| Buildings | Tall skyscrapers |
-| Road | Wide city road |
-| Vehicles | Cars and buses |
-| Lighting | Evening and street lighting |
-| Sky | Blue and orange evening sky |
-| Environment | Urban environment |
-| Architecture | Modern glass buildings |
-| Style | Realistic photography |
-| Mood | Modern and energetic |
-
----
-
-# 3. BASIC PROMPT
-
-The initial prompt is:
-
-> A modern city with tall buildings and a busy road.
-
----
-
-# 4. REFINED PROMPT
-
-The prompt is improved as follows:
-
-> A modern metropolitan city during evening time with tall glass skyscrapers, a wide road with cars and buses, street lights, pedestrians, modern buildings and a colorful sunset sky.
-
----
-
-# 5. FINAL PROMPT
-
-The final detailed prompt used for image generation is:
-
-> Create a highly realistic photograph of a modern metropolitan city during evening time. Show tall glass skyscrapers on both sides of a wide city road. Include cars and buses moving along the road, pedestrians walking on sidewalks, bright street lights, realistic building windows and a warm orange and blue evening sky. Add realistic reflections on the glass buildings, natural shadows, detailed architecture, cinematic lighting, realistic traffic and professional photography composition. Make the image highly detailed and photorealistic.
-
----
-
-# 6. GENERATED IMAGE
-
-The final image generated using the refined prompt is shown below.
-
-<img width="1150" height="705" alt="image" src="https://github.com/user-attachments/assets/a74b2528-dac0-49a4-a2d4-749a6ae0e411" />
-
----
-
-# 7. COMPARISON OF IMAGE 2
-
-| Feature | Original Image | Generated Image |
-|---|---|---|
-| Buildings | Modern skyscrapers | Modern skyscrapers |
-| Road | Wide city road | Wide city road |
-| Vehicles | Cars and buses | Cars and buses |
-| Street Lights | Present | Present |
-| Sky | Evening sky | Evening sky |
-| Architecture | Modern | Modern |
-| Lighting | Evening lighting | Similar lighting |
-| Style | Realistic | Photorealistic |
-| Composition | Urban view | Similar urban view |
-| Similarity | Reference | High similarity |
-
----
-
-# 8. OBSERVATION OF IMAGE 2
-
-The generated city image successfully represents the major characteristics of the original image.
-
-The skyscrapers, road, vehicles, street lights, evening sky and urban atmosphere are reproduced with good similarity.
-
-Minor differences may occur in:
-
-- Building shapes
-- Vehicle positions
-- Number of people
-- Traffic arrangement
-- Sky and cloud patterns
-
----
-
-# PROMPT ITERATION
-
-Prompt refinement was performed in three stages.
-
----
-
-## ITERATION 1 – BASIC PROMPT
-
-### Prompt:
-
-> A beautiful mountain landscape with mountains and a river.
-
-### Observation:
-
-The generated image contained mountains and a river, but many important details were missing.
-
----
-
-## ITERATION 2 – DETAILED PROMPT
-
-### Prompt:
-
-> A peaceful mountain landscape during sunset with purple mountains, a calm river, green trees, orange clouds and warm sunlight.
-
-### Observation:
-
-The generated image became more similar because additional colors, objects and lighting details were provided.
-
----
-
-## ITERATION 3 – FINAL PROMPT
-
-### Prompt:
-
-> Create a photorealistic mountain valley during sunset with tall purple mountains in the background, a calm blue river flowing through the center, green trees along the riverbanks, warm golden sunlight, orange and purple clouds, realistic reflections in the water, natural shadows, cinematic composition, realistic textures, high detail and a peaceful atmosphere.
-
-### Observation:
-
-The final output showed better similarity to the reference image.
-
----
-
-# COMPARISON REPORT
-
-The original and generated images were compared using several visual parameters.
-
-| Parameter | Image 1: Landscape | Image 2: City |
-|---|---|---|
-| Main Subject | Mountain landscape | Modern city |
-| Colors | Purple, green, orange | Blue, orange, grey |
-| Lighting | Sunset | Evening |
-| Background | Mountains and sky | Skyscrapers |
-| Foreground | River and trees | Road and vehicles |
-| Style | Realistic | Realistic |
-| Composition | Landscape | Urban |
-| Details | High | High |
-| Overall Similarity | High | High |
-
----
-
-# EVALUATION
-
-The quality of the generated images was evaluated using the following criteria:
-
-| Evaluation Criteria | Result |
-|---|---|
-| Subject Similarity | High |
-| Color Similarity | High |
-| Lighting Similarity | High |
-| Background Similarity | High |
-| Composition Similarity | High |
-| Style Similarity | High |
-| Overall Quality | Good |
-| Overall Reproduction | Successful |
-
----
-
-# ADVANTAGES
-
-1. Images can be generated using natural language.
-2. No advanced graphic design skills are required.
-3. Prompts can be easily modified.
-4. Multiple versions can be generated quickly.
-5. Different artistic styles can be created.
-6. Useful for creative design and visualization.
-7. Helps understand prompt engineering.
-8. Useful for education, advertising and digital content creation.
-
----
-
-# LIMITATIONS
-
-1. The generated image may not exactly match the original.
-2. Small visual details may be changed.
-3. Object positions may differ.
-4. Colors may vary slightly.
-5. Text and logos may not be reproduced accurately.
-6. Multiple generations may be required.
-7. Results depend strongly on the quality of the prompt.
-
----
-
-# DELIVERABLES
-
-The following deliverables are completed:
-
-- [x] Original Image 1
-- [x] Generated Image 1
-- [x] Original Image 2
-- [x] Generated Image 2
-- [x] Basic Prompts
-- [x] Refined Prompts
-- [x] Final Prompts
-- [x] Prompt Iterations
-- [x] Comparison Report
-- [x] Evaluation
-- [x] Observations
-- [x] Result
-- [x] Conclusion
-
----
-
-# RESULT
-
-Two reference images were analyzed and reproduced using detailed text prompts.
-
-The AI image-generation model successfully generated images containing the major visual characteristics of the reference images.
-
-The experiment demonstrated that detailed prompts produce better image-generation results than simple prompts.
-
----
-
-# CONCLUSION
-
-The experiment successfully demonstrates the use of prompt engineering for reproducing images using Generative AI.
-
-By carefully analyzing an image and describing its objects, colors, lighting, background, composition, perspective and artistic style, a suitable prompt can be created.
-
-The results show that prompt refinement and iterative generation improve the similarity between the original and generated images.
-
-Therefore, **text-to-image generation and prompt engineering are effective techniques for creating visually similar images using Generative AI tools.**
-
----
+Comparison helps identify differences and allows the prompt to be improved for better image reproduction.
